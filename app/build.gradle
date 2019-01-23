@@ -42,4 +42,6 @@ dependencies {
     implementation(name: 'AMap3DMap_6.5.0_AMapNavi_6.5.0_AMapSearch_6.5.0_AMapLocation_4.4.0_20181123', ext: 'aar')
     implementation 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
     implementation files('libs/junit-4.7.jar')
+
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
 }

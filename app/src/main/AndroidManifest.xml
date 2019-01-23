@@ -51,14 +51,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".activity.LoginActivity"></activity>
         <!-- 配置APP ID -->
         <meta-data
             android:name="BUGLY_APPID"
             android:value="e7a5d418-9a73-4e73-8ae4-2c239ebc8803" />
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="150d726d4ca69eee1ea63910af311c70"></meta-data>
+            android:value="150d726d4ca69eee1ea63910af311c70" />
 
         <activity android:name=".activity.StartPageActivity">
             <intent-filter>
@@ -68,18 +68,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.MainActivity" />
-        <activity android:name=".activity.LoginActivity" />
-
-        <!-- 定位需要的服务 -->
-        <service android:name="com.amap.api.location.APSService" />
-
-        <service android:name="com.example.dong.happynavi.service.GpsTrace" />
-
-        <service android:name=".service.DownloadService" />
-
-        <activity android:name=".activity.RegisterActivity"></activity>
-
-
     </application>
 
 </manifest>
